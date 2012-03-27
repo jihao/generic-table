@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+          
+<struts-config>
+
+    <form-beans>
+        <form-bean name="uniformTableForm" type="com.ericsson.dcp.generic.table.action.UniformTableForm"></form-bean>
+    </form-beans>
+
+
+    <global-exceptions></global-exceptions>
+    <global-forwards></global-forwards>
+
+
+    <action-mappings>
+        <action path="/UserListAction" name="uniformTableForm" scope="request"
+			type="com.ericsson.dcp.generic.table.example.UserListAction" parameter="method">
+			<forward name="list" path="/user/list.jsp"></forward>
+		</action>
+    </action-mappings>
+
+	<message-resources parameter="AppBundle" />
+	<message-resources key="UserBundle" parameter="UserBundle" />
+</struts-config>
+

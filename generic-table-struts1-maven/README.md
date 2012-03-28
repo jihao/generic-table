@@ -11,14 +11,16 @@ You may ask "how to use eclipse create a **Dynamic Web Project** with **Maven Su
  * second I changed the **Project Facets** configuration from Dynamic Web Module **2.3** to Dynamic Web Module **2.5**
  * third I updated web.xml to use 2.5 schema
 
-		<?xml version="1.0" encoding="UTF-8"?>
-		<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
-			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-			xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-		
-			<display-name>Archetype Created Web Application</display-name>
-			<welcome-file-list>
-				<welcome-file>index.jsp</welcome-file>
-			</welcome-file-list>
-		</web-app>
- * then it's OK to run on server
+
+>		<?xml version="1.0" encoding="UTF-8"?>
+>		<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+>			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>			xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+>		
+>			<display-name>Archetype Created Web Application</display-name>
+>			<welcome-file-list>
+>				<welcome-file>index.jsp</welcome-file>
+>			</welcome-file-list>
+>		</web-app>
+
+* then it's OK to run on server

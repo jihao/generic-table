@@ -11,3 +11,10 @@ Maybe you doesn't like that style, but it does give you some kind of convenience
 
 ## generic-table-struts1-maven
 The maven powered version of *generic-table-struts1*, fine integrated with eclipse, you can choose **Run As -> Run on Server** to deploy in web container (for instance tomcat7)
+
+
+## generic-table-springmvc
+The springMVC version of *generic-table*, this is going to be the major version that I will keep work on improving.
+Also fine integrated with eclipse, you can choose **Run As -> Run on Server** to deploy in web container (for instance tomcat7)
+
+On going...
